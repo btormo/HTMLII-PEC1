@@ -1,0 +1,148 @@
+/*  MOBILE  */
+@media only screen and (max-width: 767px) {
+  header {
+    height: 100px;
+  }
+
+  header img {
+    height: 70px;
+    margin: 15px auto;
+  }
+
+  .menu-desktop {
+    display: none;
+  }
+ 
+
+  main {
+    padding-top: 170px;
+    width: 80%;
+  }
+
+  .seccion__texto {
+    float: left;
+    width: 100%;
+    margin: 0;
+  }
+
+  .seccion__texto__columnas {
+    width: 100%;
+  }
+
+  .seccion__conocimientos__grafico {
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid $dgrey-color;
+    border-radius: 6px;
+  }
+  
+  .seccion__conocimientos__texto {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+}
+
+/*  TABLET  */
+@media only screen and (min-width: 768px) {
+
+  header { height: 100px; }
+
+  header img {
+    height: 70px;
+    margin: 15px auto;
+  }
+
+  .menu-desktop {
+    top: 100px;
+  }
+
+  .menu ul {
+    width: 600px;
+  }
+
+  #menu-movil {
+    display: none;
+  }
+
+  main {
+    padding-top: 170px;
+    width: 80%;
+  }
+
+  .seccion__texto {
+    float: left;
+    width: 100%;
+    margin: 0;
+  }
+
+  .seccion__texto__columnas {
+    width: 29%;
+  }
+
+  .seccion__conocimientos__grafico {
+    float: left;
+    width: 50%;
+    margin-bottom: 5px;
+    border: 1px solid $dgrey-color;
+    border-radius: 6px;
+  }
+    
+  .seccion__conocimientos__texto {
+    width: 45%;
+    margin: 0 0 0 20px;
+  }
+}
+
+/*  DESKTOP */
+
+@media only screen and (min-width: 1100px) {
+  header {
+    height: 150px;
+  }
+  
+  header img {
+    height: 100px;
+    margin: 25px auto;
+  }
+
+  .menu-desktop {
+    top: 150px;
+  }
+
+  .menu ul {
+    width: 600px;
+  }
+
+  #menu-movil {
+    display: none;
+  }
+
+  main {
+    padding-top: 200px;
+    width: 70%;
+  }
+
+  .seccion__texto {
+    float: left;
+    width: 50%;
+    margin: 0;
+  }
+
+  .seccion__texto__columnas {
+    width: 29%;
+  }
+
+  .seccion__conocimientos__grafico {
+    float: left;
+    width: 50%;
+    margin-bottom: 5px;
+    border: 1px solid $dgrey-color;
+    border-radius: 6px;
+  }
+  
+  .seccion__conocimientos__texto {
+    width: 45%;
+    margin: 0 0 0 20px;
+  }
+}

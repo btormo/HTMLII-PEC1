@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  // padding: 30px;
+  font-family: $font-family;
+  background-color: $bg-color;
+}
+
+h1 {
+  float: left;
+  width: 100%;
+  margin: 60px 0 10px 0;
+  font-size: $h1-font-size;
+  font-weight: $h1-fw;
+  color: $logo-color;
+}
+
+h2 {
+  float: left;
+  width: 100%;
+  margin: 30px 0;
+  font-size: $h2-font-size;
+  font-weight: $h2-fw;
+  color: $green-color;
+}
+
+h3 {
+  margin: 0;
+  font-size: $h3-font-size;
+  font-weight: $h4-fw;
+  color: $green-color;
+}
+
+b {
+  font-size: $p-font-size;
+}
+
+i {
+  font-size: $h3-font-size;
+}
+
+h4 {
+  margin: 0;
+  font-size: $p-font-size;
+  font-weight: $h4-fw;
+  color: $grey-color;
+}
+
+p {
+  font-size: $p-font-size;
+  color: $p-color;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  background-color: $bg-color;
+}
+
+header img {
+  display: block;
+}
+
+.menu-desktop {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  background-color: $bg-color;
+}
+
+.menu-desktop ul {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.menu-desktop ul li {
+  float: left;
+  margin: 10px auto;
+  padding: 0 30px;
+}
+
+.menu-desktop ul li a {
+  display: block;
+  font-family: $font-family;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  font-size: $a-font-size;
+  font-display: auto;
+  color: $logo-color;
+}
+
+#menu-movil {
+  position: fixed;
+  top: 100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: $bg-color;
+}
+  
+#menu-movil li > a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  background-color: $bg-color;
+  color: $logo-color;
+  list-style: none;
+}
+
+#menu-movil li > a:hover {
+  margin: 0 auto;
+  color: $green-color;
+}
+
+#menu-movil > li {
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+}
+
+#menu-movil > li > ul {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+#menu-movil > li:hover > ul {
+  display: block;
+  margin: 0 auto;
+  list-style: none;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.seccion {
+  width: 100%;
+  float: left;
+}
+
+.seccion__imagen {
+  width: 100%;
+  float: left;
+}
+
+.seccion__imagen img {
+  width: 100%;
+}
+
+#sobre-mi {
+  float: left;
+  width: 100%;
+  margin: 0;
+}
+
+.seccion__texto {
+  float: left;
+  margin: 0;
+}
+
+.seccion__texto__columnas {
+  float: left;
+  margin: 0 2%;
+}
+
+.seccion__texto__columnas h3 {
+  margin-top: 10px;
+}
+
+.seccion__texto__columnas p {
+  margin-top: 0;
+}
+
+.seccion__conocimientos__grafico {
+  position: relative;
+  margin-bottom: 5px;
+  border: 1px solid $dgrey-color;
+  border-radius: 6px;
+}
+
+.seccion__conocimientos__grafico .seccion__conocimientos__barra {
+  display: block;
+  height: 25px;
+  font-weight: $strong-fw;
+  font-size: $p-font-size;
+  line-height: 25px;
+  text-align: left;
+  padding-left: 5px;
+  border-radius: 4px;
+  color: $bg-color;
+  background: $dgrey-color;
+}
+
+.seccion__conocimientos__grafico .seccion__conocimientos__barra span {
+  position: absolute;
+  left: 1em;
+}
+
+.seccion__conocimientos__texto {
+  float: left;
+}
+
+.seccion__conocimientos__texto h3 {
+  font-size: $p-font-size;
+  font-weight: $h4-fw;
+  color: $dgrey-color;
+}
+
+footer {
+  float: left;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+footer p {
+  margin-top: 50px;
+  text-align: center;
+  color: $logo-color;
+}
